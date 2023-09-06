@@ -1,0 +1,56 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Jaehyung Kim
+    - name: Languages
+      value: Korean, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Masters
+      institution: University of Illinois at Urbana Champaign
+      year: 2021
+    - title: Bachelors
+      institution: Seoul National University
+      year: 2020
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Engineer
+      institution: CryptoLab Inc.
+      year: 2021 - Present
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Research Intern
+      institution: CryptoLab Inc.
+      year: 2020
+      description:
+        - Description 1.
+        - Description 2.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2015
+      items: 
+        - Gold Medal, International Mathematical Olympiad
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.

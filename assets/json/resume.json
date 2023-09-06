@@ -1,0 +1,88 @@
+{
+  "basics": {
+    "name": "Jaehyung Kim",
+    "label": "Researcher",
+    "email": "jaehyungkim@cryptolab.co.kr"
+  },
+  "work": [
+    {
+      "name": "CryptoLab Inc.",
+      "position": "Research Engineer",
+      "url": "https://www.cryptolab.co.kr",
+      "startDate": "2021-06",
+      "endDate": "Present",
+      "highlights": [
+        "HEaaN library development",
+        "Research on fully homomorphic encryption"
+      ]
+    },
+	{
+      "name": "CryptoLab Inc.",
+      "position": "Research Intern",
+      "url": "https://www.cryptolab.co.kr",
+      "startDate": "2020-06",
+      "endDate": "2020-07"
+	}
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign, Champaign, Illinois, USA",
+      "url": "https://illinois.edu",
+      "area": "Mathematics",
+      "studyType": "Master of Science",
+      "startDate": "2020-08",
+      "endDate": "2021-05"
+    },
+	{
+	  "institution": "Seoul National University, Seoul, Republic of Korea",
+	  "url": "https://www.snu.ac.kr",
+	  "area": "Mathematical Sciences",
+	  "studyType": "Bachelor of Science",
+	  "startDate": "2016-03",
+	  "endDate": "2020-02"
+	}
+  ],
+  "awards": [
+    {
+      "title": "Best Award (2nd place)",
+      "date": "2023-10",
+      "awarder": "National Cryptography Contest",
+      "url" : "https://kcryptoforum.or.kr/web/business/competition/notice.do"
+    },
+    {
+      "title": "Best Award (2nd place)",
+      "date": "2022-10",
+      "awarder": "National Cryptography Contest",
+      "url" : "https://kcryptoforum.or.kr/web/business/competition/notice.do"
+    },
+    {
+      "title": "Gold Medal",
+      "date": "2015-07",
+      "awarder": "The 56th International Mathematical Olympiad",
+	  "url" : "https://www.imo-official.org"
+    },
+	{
+	  "title": "Silver Medal",
+	  "date": "2014-07",
+	  "awarder": "The 55th International Mathematical Olympiad",
+	  "url" : "https://www.imo-official.org"
+	}
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
