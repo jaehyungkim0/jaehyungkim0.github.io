@@ -13,7 +13,8 @@
       "startDate": "2021-06",
       "endDate": "Present",
       "highlights": [
-        "HEaaN library development"
+        "HEaaN library development",
+        "Research on Fully Homomorphic Encryption"
       ]
     },
 	{
@@ -45,11 +46,23 @@
   ],
   "awards": [
     {
+      "title": "Best Award (2nd place)",
+      "date": "2022-10",
+      "awarder": "National Cryptography Contest",
+      "url" : "https://kcryptoforum.or.kr/web/business/competition/notice.do"
+    },
+    {
       "title": "Gold Medal",
       "date": "2015-07",
-      "awarder": "The 56th International Mathematical olympiad",
+      "awarder": "The 56th International Mathematical Olympiad",
 	  "url" : "https://www.imo-official.org"
-    }
+    },
+	{
+	  "title": "Silver Medal",
+	  "date": "2014-07",
+	  "awarder": "The 55th International Mathematical Olympiad",
+	  "url" : "https://www.imo-official.org"
+	}
   ],
   "certificates": [],
   "publications": [],
