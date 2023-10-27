@@ -46,6 +46,12 @@
   "awards": [
     {
       "title": "Best Award (2nd place)",
+      "date": "2023-10",
+      "awarder": "National Cryptography Contest",
+      "url" : "https://kcryptoforum.or.kr/web/business/competition/notice.do"
+    },
+    {
+      "title": "Best Award (2nd place)",
       "date": "2022-10",
       "awarder": "National Cryptography Contest",
       "url" : "https://kcryptoforum.or.kr/web/business/competition/notice.do"
