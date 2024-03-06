@@ -1,3 +1,11 @@
+@InProceedings{BCKS24,
+author="Bae, Youngjin and Cheon, Jung Hee and Kim, Jaehyung and Stehl\'{e}, Damien",
+title="Bootstrapping Bits with CKKS",
+booktitle="EUROCRYPT (to appear)",
+year="2024",
+abbr = {Eurocrypt}
+}
+
 @misc{KSS24,
       author = {Jaehyung Kim and Jinyeong Seo and Yongsoo Song},
       title = {Simpler and Faster BFV Bootstrapping for Arbitrary Plaintext Modulus from CKKS},
@@ -14,18 +22,8 @@ We implement our method at a proof-of-concept level to provide concrete benchmar
 author = {Cheon, Jung Hee and Cho, Wonhee and Kim, Jaehyung and Stehl\'{e}, Damien},
 title = {Homomorphic Multiple Precision Multiplication for CKKS and Reduced Modulus Consumption},
 year = {2023},
-isbn = {9798400700507},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3576915.3623086},
-doi = {10.1145/3576915.3623086},
 abstract = {Homomorphic Encryption (HE) schemes such as BGV, BFV, and CKKS consume some ciphertext modulus for each multiplication. Bootstrapping (BTS) restores the modulus and allows homomorphic computation to continue, but it is time-consuming and requires a significant amount of modulus. For these reasons, decreasing modulus consumption is crucial topic for BGV, BFV and CKKS, on which numerous studies have been conducted.We propose a novel method, called Mult2, to perform ciphertext multiplication in the CKKS scheme with lower modulus consumption. Mult2 relies an a new decomposition of a ciphertext into a pair of ciphertexts that homomorphically performs a weak form of Euclidean division. It multiplies two ciphertexts in decomposed formats with homomorphic double precision multiplication, and its result approximately decrypts to the same value as does the ordinary CKKS multiplication. Mult2 can perform homomorphic multiplication by consuming almost half of the modulus.We extend it to Multt for any t≥ 2, which relies on the decomposition of a ciphertext into t components. All other CKKS operations can be equally performed on pair/tuple formats, leading to the double-CKKS (resp. tuple-CKKS) scheme enabling homomorphic double (resp. multiple) precision arithmetic.As a result, when the ciphertext modulus and dimension are fixed, the proposed algorithms enable the evaluation of deeper circuits without bootstrapping, or allow to reduce the number of bootstrappings required for the evaluation of the same circuits. Furthermore, they can be used to increase the precision without increasing the parameters. For example, Mult2 enables 8 sequential multiplications with 100 bit scaling factor with a ciphertext modulus of only 680 bits, which is impossible with the ordinary CKKS multiplication algorithm.},
-booktitle = {Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security},
-pages = {696–710},
-numpages = {15},
-keywords = {high precision, approximate multiplication, ckks scheme, small parameters, fully homomorphic encryption},
-location = {, Copenhagen, Denmark, },
-series = {CCS '23},
+booktitle = {ACM CCS},
 eprintcrypto = {2023/1788},
 abbr = {CCS}
 }
@@ -37,13 +35,9 @@ and Kim, Jaehyung
 and Park, Jai Hyun
 and Stehl{\'e}, Damien",
 title="HERMES: Efficient Ring Packing Using MLWE Ciphertexts and Application to Transciphering",
-booktitle="Advances in Cryptology -- CRYPTO 2023",
+booktitle="CRYPTO",
 year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="37--69",
 abstract="Most of the current fully homomorphic encryption (FHE) schemes are based on either the learning-with-errors (LWE) problem or on its ring variant (RLWE) for storing plaintexts. During the homomorphic computation of FHE schemes, RLWE formats provide high throughput when considering several messages, and LWE formats provide a low latency when there are only a few messages. Efficient conversion can bridge the advantages of each format. However, converting LWE formats into RLWE format, which is called ring packing, has been a challenging problem.",
-isbn="978-3-031-38551-3",
 eprintcrypto="2023/1244",
 abbr = {Crypto}
 }
@@ -55,13 +49,9 @@ and Kim, Jaehyung
 and Kim, Taekyung
 and Min, Chohong",
 title="* EvalRound Algorithm in CKKS Bootstrapping",
-booktitle="Advances in Cryptology -- ASIACRYPT 2022",
+booktitle="ASIACRYPT",
 year="2022",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="161--187",
 abstract="Homomorphic encryption (HE) has opened an entirely new world up in the privacy-preserving use of sensitive data by conducting computations on encrypted data. Amongst many HE schemes targeting computation in various contexts, Cheon--Kim--Kim--Song (CKKS) scheme [8] is distinguished since it allows computations for encrypted real number data, which have greater impact in real-world applications.",
-isbn="978-3-031-22966-4",
 eprintcrypto="2022/1256",
 abbr = {Asiacrypt}
 }
@@ -70,18 +60,8 @@ abbr = {Asiacrypt}
 author = {Bae, Youngjin and Cheon, Jung Hee and Cho, Wonhee and Kim, Jaehyung and Kim, Taekyung},
 title = {META-BTS: Bootstrapping Precision Beyond the Limit},
 year = {2022},
-isbn = {9781450394505},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3548606.3560696},
-doi = {10.1145/3548606.3560696},
 abstract = {Bootstrapping, which enables the full homomorphic encryption scheme that can perform an infinite number of operations by restoring the modulus of the ciphertext with a small modulus, is an essential step in homomorphic encryption. However, bootstrapping is the most time and memory consuming of all homomorphic operations. As we increase the precision of bootstrapping, a large amount of computational resources is required. Specifically, for any of the previous bootstrap designs, the precision of bootstrapping is limited by rescaling precision. In this paper, we propose a new bootstrapping algorithm of the Cheon-Kim-Kim-Song (CKKS) citeCKKS17 scheme to use a known bootstrapping algorithm repeatedly, so called Meta-BTS. By repeating the original bootstrapping operation twice, one can obtain another bootstrapping with its precision essentially doubled; it can be generalized to be k-fold bootstrapping operations for some k&gt;1 while the ciphertext size is large enough. Our algorithm overcomes the precision limitation given by the rescale operation.},
-booktitle = {Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security},
-pages = {223–234},
-numpages = {12},
-keywords = {approximate boot- strapping, high precision, fully homomorphic encryption, ckks scheme, small parameters},
-location = {Los Angeles, CA, USA},
-series = {CCS '22},
+booktitle = {ACM CCS},
 eprintcrypto = {2022/1167},
 abbr = {CCS}
 }
