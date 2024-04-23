@@ -15,6 +15,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a research engineer at [CryptoLab](https://www.cryptolab.co.kr). I am currently interested in cryptography, especially fully homomorphic encryption (FHE).
+I am a research engineer at [CryptoLab](https://www.cryptolab.co.kr). I am currently interested in cryptography, especially fully homomorphic encryption (FHE). Since joining CryptoLab in 2021, I have been developing and maintaining the [HEaaN library](https://heaan.it/) and actively engaging in academic research on fully homomorphic encryption.
 
-I had been studying mathematics before joining CryptoLab. I received a B.S. in Mathematical Sciences at [Seoul National University](https://en.snu.ac.kr/index.html) and received an M.S. in Mathematics at [University of Illinois Urbana-Champaign](https://illinois.edu/) on the way to Ph.D. Since joining CryptoLab in 2021, I have been developing and maintaining the [HEaaN library](https://heaan.it/) and actively engaging in academic research on fully homomorphic encryption.
+I will be starting a computer science PhD program at [Stanford University](https://www.stanford.edu/) from this fall.
