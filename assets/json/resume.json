@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jaehyung Kim",
     "label": "Researcher",
-    "email": "jaehyungkim@cryptolab.co.kr"
+    "email": "jaehk@stanford.edu"
   },
   "work": [
     {
@@ -10,7 +10,7 @@
       "position": "Research Engineer",
       "url": "https://www.cryptolab.co.kr",
       "startDate": "2021-06",
-      "endDate": "Present",
+      "endDate": "2024-08",
       "highlights": [
         "HEaaN library development",
         "Research on fully homomorphic encryption"
