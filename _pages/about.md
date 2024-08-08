@@ -16,4 +16,4 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am an incoming computer science PhD student at [Stanford University](https://www.stanford.edu/). I am currently interested in cryptography, especially on theories for building privacy preserving applications.
 
-Before joining Stanford, I have worked as a research engineer at [CryptoLab](https://www.cryptolab.co.kr) for 3 years. I have actively engaged in academic research and software development on fully homomorphic encryption (FHE).
+Before joining Stanford, I had worked as a research engineer at [CryptoLab](https://www.cryptolab.co.kr) for 3 years. I actively engaged in academic research and software development on fully homomorphic encryption (FHE).

@@ -1,7 +1,6 @@
 {
   "basics": {
     "name": "Jaehyung Kim",
-    "label": "Researcher",
     "email": "jaehk@stanford.edu"
   },
   "work": [
@@ -26,6 +25,14 @@
   ],
   "volunteer": [],
   "education": [
+    {
+      "institution": "Stanford University, Stanford, California, USA",
+      "url": "https://www.stanford.edu/",
+      "area": "Computer Science",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2024-09",
+      "endDate": "Present"
+    },
     {
       "institution": "University of Illinois Urbana-Champaign, Champaign, Illinois, USA",
       "url": "https://illinois.edu",
