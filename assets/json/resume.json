@@ -50,7 +50,14 @@
       "endDate": "2020-07"
 	}
   ],
-  "awards": [
+  "awards": [ 
+    {
+      "title": "Stanford Graduate Fellowship",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "awarder": "Stanford University",
+      "url" : "https://vpge.stanford.edu/all-2024-fellows"
+    },
     {
       "title": "Best Award (2nd place)",
       "date": "2023-10",
@@ -62,6 +69,13 @@
       "date": "2022-10",
       "awarder": "National Cryptography Contest",
       "url" : "https://kcryptoforum.or.kr/web/business/competition/notice.do"
+    },
+    {
+      "title": "The Presidential Science Scholarship",
+      "startDate": "2016-03",
+      "endDate": "2020-02",
+      "awarder": "Korea Student Aid Foundation",
+      "url" : "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_05_01"
     },
     {
       "title": "Gold Medal",
