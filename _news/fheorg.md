@@ -1,8 +1,8 @@
 ---
 layout: post
 inline: true
-date: 2023-11-02
+date: 2025-09-24
 related_posts: false
 ---
 
-I presented about ring packing and the HERMES paper at [FHE.org](https://fhe.org). See this [link](https://fhe.org/meetups/038-HE_ring_packing_-_affordable_and_convenient) for details, including a video recording and slides.
+I will be serving on the program committee of [FHE.org 2026 conference](https://fhe.org/conferences/conference-2026/) - my first opportunity to contribute in this role.
