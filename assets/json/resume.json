@@ -6,7 +6,7 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Stanford University, Stanford, California, USA",
+      "institution": "Stanford University",
       "url": "https://www.stanford.edu/",
       "area": "Computer Science",
       "studyType": "Doctor of Philosophy",
@@ -14,7 +14,7 @@
       "endDate": "Present"
     },
     {
-      "institution": "University of Illinois Urbana-Champaign, Champaign, Illinois, USA",
+      "institution": "University of Illinois Urbana-Champaign",
       "url": "https://illinois.edu",
       "area": "Mathematics",
       "studyType": "Master of Science",
@@ -22,7 +22,7 @@
       "endDate": "2021-05"
     },
 	{
-	  "institution": "Seoul National University, Seoul, Republic of Korea",
+	  "institution": "Seoul National University",
 	  "url": "https://www.snu.ac.kr",
 	  "area": "Mathematical Sciences",
 	  "studyType": "Bachelor of Science",
@@ -36,11 +36,7 @@
       "position": "Research Engineer",
       "url": "https://www.cryptolab.co.kr",
       "startDate": "2021-06",
-      "endDate": "2024-08",
-      "highlights": [
-        "HEaaN library development",
-        "Research on fully homomorphic encryption"
-      ]
+      "endDate": "2024-08"
     },
 	{
       "name": "CryptoLab Inc.",
@@ -81,16 +77,7 @@
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
+  "languages": [],
   "services": [
   {
     "name": "Reviewer",
