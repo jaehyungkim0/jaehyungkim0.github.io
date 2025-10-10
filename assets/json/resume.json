@@ -91,7 +91,21 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "services": [
+  {
+    "name": "Reviewer",
+    "keywords": [
+        "Crypto 2024-25",
+        "Eurocrypt 2025"
+    ]
+  },
+  {
+    "name": "Program Committee",
+    "keywords": [
+      "FHE.org 2026"
+    ]
+  }
+  ],
   "references": [],
   "projects": []
 }
