@@ -14,6 +14,9 @@ See also [Google Scholar](https://scholar.google.com/citations?hl=ko&user=CDOzdz
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[category!=preprint] %}
+
+<h2>Preprints</h2>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[category=preprint] %}
 
 </div>
