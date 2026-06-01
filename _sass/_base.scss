@@ -147,6 +147,11 @@ blockquote {
       }
     }
   }
+
+  .profile.float-right,
+  .profile.float-left {
+    margin-top: -6.25rem;
+  }
 }
 
 .post-description {
