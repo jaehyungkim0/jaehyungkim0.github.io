@@ -41,7 +41,13 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+    <h1 class="post-title cv-title-row">
+      <span>{{ page.title }}</span>
+      <span class="cv-title-actions">
+        {% if site.data.resume.basics.email %}<span class="cv-contact"><span>Email:</span> <a href="mailto:{{ site.data.resume.basics.email }}">{{ site.data.resume.basics.email }}</a></span>{% endif %}
+        {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i></a>{% endif %}
+      </span>
+    </h1>
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
@@ -53,7 +59,7 @@ layout: default
             {% continue %}
           {% endunless %}
         {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
+        {% if data[0] == "meta" or data[0] == "basics" or data[1].size == 0 %}
           {% continue %}
         {% endif %}
         <a class="anchor" id="{{ data[0] }}"></a>
@@ -61,8 +67,6 @@ layout: default
           <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
           <div>
           {% case data[0] %}
-            {% when "basics" %}
-              {% include resume/basics.html %}
             {% when "education" %}
               {% include resume/education.html %}
             {% when "work" %}
