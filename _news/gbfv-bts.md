@@ -1,8 +1,8 @@
 ---
 layout: post
 inline: true
-date: 2025-05-19
+date: 2026-08-15
 related_posts: false
 ---
 
-My recent work [Bootstrapping GBFV with CKKS](https://eprint.iacr.org/2025/888) is now on eprint.
+My solo-authored paper [Bootstrapping GBFV with CKKS](https://eprint.iacr.org/2025/888) has been accepted to and will be presented at Asiacrypt 2026.
