@@ -786,8 +786,12 @@ footer.sticky-bottom {
   gap: 1rem;
 
   @media (min-width: 840px) {
-    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-    gap: 1.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 0;
+
+    > section:first-child {
+      padding-right: 1.5rem;
+    }
 
     > section + section {
       border-left: 1px solid var(--global-divider-color);
