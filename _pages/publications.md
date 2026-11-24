@@ -12,12 +12,13 @@ Authors are ordered alphabetically by last name unless an asterisk(*) is indicat
 See also [Google Scholar](https://scholar.google.com/citations?hl=ko&user=CDOzdzcAAAAJ).
 
 <!-- _pages/publications.md -->
-<div class="publications">
-
-<h2>peer-reviewed</h2>
-{% bibliography -f {{ site.scholar.bibliography }} --query @*[category!=preprint] %}
-
-<h2>preprints</h2>
-{% bibliography -f {{ site.scholar.bibliography }} --query @*[category=preprint] %}
-
+<div class="publications publication-index">
+  <section>
+    <h2>peer-reviewed</h2>
+    {% bibliography -f {{ site.scholar.bibliography }} --query @*[category!=preprint] %}
+  </section>
+  <section>
+    <h2>preprints</h2>
+    {% bibliography -f {{ site.scholar.bibliography }} --query @*[category=preprint] %}
+  </section>
 </div>

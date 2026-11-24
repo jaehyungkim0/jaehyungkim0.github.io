@@ -26,25 +26,99 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// Profile
-.profile {
-  img {
-    width: 100%;
+.site-content {
+  margin-top: 1.5rem;
+}
+
+.post-header .post-title {
+  font-size: 2rem;
+  line-height: 1.15;
+  margin-bottom: 0.65rem;
+}
+
+.post-header .post-description:empty {
+  margin: 0;
+}
+
+// Keep the short introduction and portrait together above the news archive.
+.about-intro {
+  margin-bottom: 1.5rem;
+
+  &.with-profile {
+    display: grid;
+    grid-template: "bio photo" auto / minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  &.profile-left {
+    grid-template: "photo bio" auto / auto minmax(0, 1fr);
+  }
+
+  .about-copy {
+    grid-area: bio;
+    max-width: 72ch;
+
+    > p { margin-bottom: 0.4rem; }
+  }
+
+  .profile {
+    grid-area: photo;
+    width: clamp(6rem, 13vw, 9rem);
+
+    figure { margin: 0; }
+    img { display: block; width: 100%; }
+  }
+
+  .social {
+    text-align: left;
+
+    .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 1.35rem;
+
+      a {
+        display: inline-grid;
+        min-width: 1.65rem;
+        min-height: 1.8rem;
+        place-items: center;
+      }
+    }
   }
 }
 
-// TODO: redefine content layout.
+.about-page > h2 {
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin: 0 0 0.2rem;
+  padding-bottom: 0.35rem;
+}
 
+@media (max-width: 575.98px) {
+  .site-content { margin-top: 1rem; }
 
-/******************************************************************************
- * Publications
- ******************************************************************************/
+  body { padding-bottom: 0; }
 
-// TODO: redefine publications layout.
+  footer.fixed-bottom {
+    position: static;
+    margin-top: 1.5rem;
+  }
 
+  .about-intro.with-profile {
+    display: flow-root;
 
-/*****************************************************************************
-* Projects
-*****************************************************************************/
+    .profile {
+      float: right;
+      margin: 0 0 0.4rem 0.8rem;
+      width: 5rem;
+    }
 
-// TODO: redefine projects layout.
+    &.profile-left .profile {
+      float: left;
+      margin: 0 0.8rem 0.4rem 0;
+    }
+  }
+}
